@@ -10,6 +10,7 @@ export default function SearchForm(props) {
                 id="search"
                 name="search"
                 placeholder="Dale Cooper"
+                onChange={e => props.handleChange(e)}
             />
         </form>
     );
